@@ -49,6 +49,7 @@ def manage_data(user, db):
         elif choice == "6":
             utils.import_data(db)
         elif choice == "7":
+            print(db.get_cars())
             utils.export_data(db)
         elif choice == "8":
             break
